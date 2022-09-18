@@ -3,16 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
+    "@testing-library/react-hooks": "^8.0.1",
     "@testing-library/user-event": "^13.5.0",
+    "antd": "^4.23.2",
+    "axios": "^0.27.2",
+    "json-server": "^0.17.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-redux": "^8.0.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "dev": "npm-run-all --parallel jsonserver start",
     "start": "react-scripts start",
+    "jsonserver": "json-server --watch db.json --port 3004",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -34,5 +42,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "jest-environment-jsdom": "^29.0.3",
+    "jest-environment-jsdom-sixteen": "^2.0.0",
+    "npm-run-all": "^4.1.5"
+  },
+  "resolutions": {
+    "jest-environment-jsdom": "^29.0.3"
   }
 }
