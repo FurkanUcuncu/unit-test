@@ -1,0 +1,50 @@
+{
+  "departments": [
+    {
+      "id": 1,
+      "title": "İnsan Kaynakları"
+    },
+    {
+      "id": 2,
+      "title": "Pazarlama"
+    },
+    {
+      "id": 3,
+      "title": "Teknik Mimari"
+    },
+    {
+      "id": 4,
+      "title": "Krediler"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "fullname": "Alpay Durmaz",
+      "email": "alpay.durmaz@yapikredi.com.tr",
+      "maritalStatus": true,
+      "departmentId": 1
+    },
+    {
+      "id": 2,
+      "fullname": "Murat Bulut",
+      "email": "murat.bulut@yapikredi.com.tr",
+      "maritalStatus": false,
+      "departmentId": 2
+    },
+    {
+      "id": 4,
+      "fullname": "Gözde Yücel",
+      "email": "gozde.yucel@yapikredi.com.tr",
+      "maritalStatus": true,
+      "departmentId": 3
+    },
+    {
+      "fullname": "Furkan Üçüncü",
+      "email": "frkanucuncu@gmail.com",
+      "maritalStatus": true,
+      "departmentId": 3,
+      "id": 0.4451688513395251
+    }
+  ]
+}
